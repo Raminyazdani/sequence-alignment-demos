@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sequence-alignment-demos"
+version = "0.1.0"
+description = "Small standard-library teaching demonstrations for sequence alignment and translation"
+requires-python = ">=3.10"
+dependencies = []
+license = {text = "Proprietary; all rights reserved"}
+
+[tool.setuptools]
+py-modules = ["seqcore", "fasta", "lfasta", "rdf2", "tfasta"]
+
